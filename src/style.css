@@ -8,7 +8,7 @@ body {
     rgb(255, 233, 171) 100.2%
   );
   background-attachment: fixed;
-  font-family: "Merriweather", serif;
+  font-family: "Roboto", sans-serif;
 }
 a {
   color: #3baea0;
@@ -16,7 +16,7 @@ a {
 
 .weather-app {
   background: white;
-  max-width: 750px;
+  max-width: 600px;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
@@ -25,7 +25,7 @@ a {
 
 header {
   border-bottom: 1px solid #f9f7fe;
-  padding: 0 0 25px 0;
+  padding: 0 0 30px 0;
 }
 
 .search-form-input {
@@ -48,8 +48,7 @@ header {
 }
 
 main {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 0;
 }
 
 .weather-app-data {
@@ -58,15 +57,12 @@ main {
 }
 
 .weather-app-city {
-  text-align: left;
   margin: 0;
-  font-size: 36px;
-  line-height: 46px;
-  margin-bottom: 5px;
+  font-size: 38px;
+  line-height: 48px;
 }
 
 .weather-app-details {
-  text-align: left;
   font-size: 16px;
   color: rgba(39, 33, 66, 0.4);
   line-height: 24px;
@@ -74,7 +70,7 @@ main {
 }
 
 .weather-app-details strong {
-  color: #f65282;
+  color: #3396d8;
 }
 
 .weather-app-temperature-box {
@@ -82,22 +78,23 @@ main {
 }
 
 .weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  font-size: 88px;
+  margin-top: 88px;
 }
 
 .weather-app-temperature {
   font-size: 88px;
-  margin-left: 10px;
+  line-height: 88px;
   font-weight: bold;
 }
 
 .weather-app-temperature-unit {
-  margin-top: 16px;
+  margin-top: 6px;
   font-size: 28px;
 }
 
 footer {
+  border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
