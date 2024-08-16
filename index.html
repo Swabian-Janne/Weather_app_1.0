@@ -17,14 +17,15 @@
     <div class="weather-app">
         <header>
 
-            <form class="search-form">
-                <input type="search" placeholder="Enter a city" required class="search-form-input" />
+            <form class="search-form" id="search-form">
+                <input type="search" placeholder="Enter a city" required class="search-form-input"
+                    id="search-form-input" />
                 <input type="submit" value="Search" class="search-form-button">
             </form>
         </header>
         <main>
             <div class="weather-app-data">
-                <h1 class="weather-app-city">London</h1>
+                <h1 class="weather-app-city" id="weather-city">London</h1>
                 <p class="weather-app-details">
                     Friday 23:29, cloudy
                     <br>
@@ -48,7 +49,7 @@
         is open-sourced on <a href="https://github.com/Swabian-Janne?tab=repositories" target="_blank"> GitHub</a> and
         hosted on <a href="https://temperaturecheckweatherapp.netlify.app/" target="_blank">Netlify</a>
     </footer>
-
+    <script src="src/index.js"></script>
 </body>
 
 </html>
