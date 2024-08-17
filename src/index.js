@@ -63,7 +63,7 @@ function formatDay(timestamp) {
 
 function getForecast(city) {
   let apiKey = "ef3aab353f2ado9faa8tccd552b00647";
-  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}`;
   axios(apiUrl).then(displayForecast);
 }
 
@@ -79,7 +79,7 @@ function displayForecast(response) {
                     <div class="weather-forecast-date">${formatDay(
                       day.time
                     )}</div>
-                    <img src "${
+                    <img src= "${
                       day.condition.icon_url
                     }" class="weather-forecast-icon" />
                     <div class="weather-forecast-temperatures">
